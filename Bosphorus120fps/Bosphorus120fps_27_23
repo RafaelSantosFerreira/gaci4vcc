@@ -1,0 +1,23 @@
+
+VVCSoftware: VTM Encoder Version 3.0 [Linux][GCC 5.4.0][64 bit] [SIMD=AVX2] 
+
+TOOL CFG: IBD:0 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 LQP:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 CIP:0 SAO:1 ALF:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2 TMVPMode:1  DQ:1  SignBitHidingFlag:0 RecalQP:0 
+NEXT TOOL CFG: Affine:1 AffineType:1 SubPuMvp:1+0 DualITree:1 LargeCTU:1 IMV:2 BIO:0 DisMDC:0 MTT:1 LMChroma:1 EMT: 1(intra) 0(inter) CompositeLTReference:0 GBi:0 GBiFast:0 LADF:0 MHIntra:0 Triangle:0 CPR:0 
+FAST TOOL CFG: LCTUFast:1 FastMrg:1 PBIntraFast:1 IMV4PelFast:1 EMTFast: 1(intra) 0(inter) AMaxBT:1 E0023FastEnc:1 ContentBasedFastQtbt:0 NumSplitThreads:1 NumWppThreads:1+0 EnsureWppBitEqual:0 
+
+
+ started @ Thu May 30 04:49:44 2019
+POC    0 TId: 0 ( I-SLICE, QP 27 )    2253544 bits [Y 43.2100 dB    U 44.6701 dB    V 44.4476 dB] [ET  8963 ] [L0 ] [L1 ]
+POC    1 TId: 0 ( I-SLICE, QP 27 )    2248768 bits [Y 43.2162 dB    U 44.6761 dB    V 44.4366 dB] [ET  8957 ] [L0 ] [L1 ]
+POC    2 TId: 0 ( I-SLICE, QP 27 )    2242144 bits [Y 43.2084 dB    U 44.5670 dB    V 44.3506 dB] [ET  9180 ] [L0 ] [L1 ]
+POC    3 TId: 0 ( I-SLICE, QP 27 )    2196664 bits [Y 43.2759 dB    U 44.7024 dB    V 44.4086 dB] [ET  9001 ] [L0 ] [L1 ]
+POC    4 TId: 0 ( I-SLICE, QP 27 )    2173448 bits [Y 43.3116 dB    U 44.7511 dB    V 44.4635 dB] [ET  8864 ] [L0 ] [L1 ]
+POC    5 TId: 0 ( I-SLICE, QP 27 )    2158016 bits [Y 43.3291 dB    U 44.6539 dB    V 44.4805 dB] [ET  8904 ] [L0 ] [L1 ]
+POC    6 TId: 0 ( I-SLICE, QP 27 )    2194488 bits [Y 43.2434 dB    U 44.7931 dB    V 44.4944 dB] [ET  8943 ] [L0 ] [L1 ]
+POC    7 TId: 0 ( I-SLICE, QP 27 )    2206152 bits [Y 43.2251 dB    U 44.8157 dB    V 44.4684 dB] [ET  8923 ] [L0 ] [L1 ]
+
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        8    a   33137.2950   43.2525   44.7037   44.4438   43.6490
+
+ finished @ Fri May 31 00:45:25 2019
+ Total Time:    71736.344 sec. [user]    71741.188 sec. [elapsed]

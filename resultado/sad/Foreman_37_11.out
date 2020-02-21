@@ -1,0 +1,31 @@
+
+VVCSoftware: VTM Encoder Version 3.0 [Linux][GCC 5.4.0][64 bit] [SIMD=AVX2] 
+
+TOOL CFG: IBD:1 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 LQP:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 CIP:0 SAO:1 ALF:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2 TMVPMode:1  DQ:1  SignBitHidingFlag:0 RecalQP:0 
+NEXT TOOL CFG: Affine:1 AffineType:1 SubPuMvp:1+0 DualITree:1 LargeCTU:1 IMV:2 BIO:0 DisMDC:0 MTT:1 LMChroma:1 EMT: 1(intra) 0(inter) CompositeLTReference:0 GBi:0 GBiFast:0 LADF:0 MHIntra:0 Triangle:0 CPR:0 
+FAST TOOL CFG: LCTUFast:1 FastMrg:1 PBIntraFast:1 IMV4PelFast:1 EMTFast: 1(intra) 0(inter) AMaxBT:1 E0023FastEnc:1 ContentBasedFastQtbt:0 NumSplitThreads:1 NumWppThreads:1+0 EnsureWppBitEqual:0 
+
+
+ started @ Wed Jun 19 18:38:52 2019
+Adding 90057 bytes of padding
+POC    0 TId: 0 ( I-SLICE, QP 37 )   11964800 bits [Y 31.2372 dB    U 30.8046 dB    V 30.9397 dB] [ET  7492 ] [L0 ] [L1 ]
+Adding 92532 bytes of padding
+POC    1 TId: 0 ( I-SLICE, QP 37 )   12015536 bits [Y 30.8937 dB    U 30.8574 dB    V 31.0406 dB] [ET  7478 ] [L0 ] [L1 ]
+Adding 92193 bytes of padding
+POC    2 TId: 0 ( I-SLICE, QP 37 )   12101928 bits [Y 31.0384 dB    U 30.8749 dB    V 30.9989 dB] [ET  7424 ] [L0 ] [L1 ]
+Adding 80955 bytes of padding
+POC    3 TId: 0 ( I-SLICE, QP 37 )   11906304 bits [Y 31.0860 dB    U 30.8673 dB    V 30.9675 dB] [ET  7538 ] [L0 ] [L1 ]
+Adding 84903 bytes of padding
+POC    4 TId: 0 ( I-SLICE, QP 37 )   12245000 bits [Y 31.0994 dB    U 30.9626 dB    V 30.7898 dB] [ET  7452 ] [L0 ] [L1 ]
+Adding 99117 bytes of padding
+POC    5 TId: 0 ( I-SLICE, QP 37 )   12239376 bits [Y 30.9133 dB    U 31.0149 dB    V 30.8205 dB] [ET  7389 ] [L0 ] [L1 ]
+Adding 97725 bytes of padding
+POC    6 TId: 0 ( I-SLICE, QP 37 )   12116808 bits [Y 31.1404 dB    U 30.9622 dB    V 30.8181 dB] [ET  7397 ] [L0 ] [L1 ]
+Adding 74208 bytes of padding
+POC    7 TId: 0 ( I-SLICE, QP 37 )   12014552 bits [Y 31.1822 dB    U 30.8151 dB    V 30.6110 dB] [ET  7587 ] [L0 ] [L1 ]
+
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        8    a   90566.5350   31.0738   30.8949   30.8733   31.0082
+
+ finished @ Thu Jun 20 11:14:57 2019
+ Total Time:    59760.249 sec. [user]    59764.399 sec. [elapsed]
